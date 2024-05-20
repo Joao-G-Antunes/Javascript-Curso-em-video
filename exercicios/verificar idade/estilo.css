@@ -13,6 +13,8 @@ header {
 section {
     background-color: white;
     border-radius: 10px;
+    margin: auto;
+    width: 500px;
     padding: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.308)
     ;
@@ -22,4 +24,8 @@ footer {
     text-align: center;
     color: white;
     font-style: italic;
+}
+
+#imagem, #msg {
+    text-align: center;
 }

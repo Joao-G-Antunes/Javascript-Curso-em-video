@@ -14,20 +14,20 @@
         <div id="msg">
             <label for="iidade">
                 Ano de nascimento:
-                <input type="number" name="idade" id="iidade" required max="2024" min="1900">
+                <input type="number" name="idade" id="iidade" required max="2024" min="1900" >
             </label><br>
             <label for="isexo">
                 Sexo: 
-                <input type="radio" name="sexo" id="isexo" >
+                <input type="radio" name="sexo" id="isexo" value="Homem">
                 Masculino
-                <input type="radio" name="sexo" id="isexo">
+                <input type="radio" name="sexo" id="isexo" value="Mulher">
                 Feminino
             </label><br>
-            <input type="button" value="Verificar" onclick="calcular()"> <br>
-            <p id="mostraidade">asdaa</p>
+            <input type="button" value="Verificar"  onclick="validaidade()"> <br>
+            <p id="mostraidade"></p>
         </div>
         <div id="imagem">
-            <img src="img/criança-M.png" alt="imagem">
+            <img  id="iimagem" src="img/criança-M.png" alt="imagem">
 
         </div>
     </section>
